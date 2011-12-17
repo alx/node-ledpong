@@ -1,0 +1,19 @@
+{
+    "name": "ledpong",
+    "description": "A library to control tetalab ledpong using arduino firmata",
+    "version": "0.0.1",
+    "author": "Alexandre Girard",
+    "homepage": "http://www.github.com/alx/node-ledpong",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/alx/node-ledpong.git"
+    },
+    "main": "lib/ledpong",
+    "bin": {
+        "ledpong": "./repl.js"
+    },
+    "dependencies": {
+        "firmata": ">=0.1.3",
+        "serialport": ">=0.2.0"
+    }
+}
